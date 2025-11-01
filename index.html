@@ -185,3 +185,85 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Register — High Vision Construction</title>
+<style>
+  :root{--brand:#0a3d62;--accent:#1e5799;--bg:#f8fafc;}
+  body{margin:0;font-family:Arial;background:var(--bg);}
+  header{background:linear-gradient(180deg,var(--brand),var(--accent));color:#fff;padding:28px;text-align:center;}
+  nav{text-align:center;background:#fff;padding:12px;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+  nav a{margin:0 12px;color:var(--brand);font-weight:bold;text-decoration:none;}
+  .container{max-width:900px;margin:20px auto;padding:20px;}
+  form{background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,0.08);}
+  label{margin-top:12px;display:block;font-weight:600;}
+  input,select,textarea{width:100%;padding:10px;margin-top:6px;border:1px solid #ccc;border-radius:6px;}
+  textarea{min-height:100px;}
+  button{background:var(--brand);color:#fff;border:none;padding:12px 18px;margin-top:18px;border-radius:6px;font-size:16px;cursor:pointer;}
+  button:hover{opacity:.9;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Project Registration Form</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="register.html">Register</a>
+  <a href="mailto:topaz2330000@gmail.com">Email</a>
+  <a href="https://wa.me/923310005042">WhatsApp</a>
+</nav>
+
+<div class="container">
+<form action="thankyou.html">
+  <label>Your Full Name *</label>
+  <input type="text" name="name" required>
+
+  <label>Phone Number *</label>
+  <input type="tel" name="phone" required placeholder="+92 3xx xxxxxxx">
+
+  <label>Email (Optional)</label>
+  <input type="email" name="email">
+
+  <label>Project Location *</label>
+  <input type="text" name="location" required>
+
+  <label>Project Type *</label>
+  <select name="type" required>
+    <option>Residential House</option>
+    <option>Commercial Building</option>
+    <option>Renovation</option>
+  </select>
+
+  <label>Project Details *</label>
+  <textarea name="details" required></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Submitted ✅</title>
+<style>
+body{font-family:Arial;text-align:center;padding:40px;background:#f4f7fa;}
+h1{color:green;font-size:28px;}
+a{display:inline-block;margin-top:20px;padding:10px 18px;background:#0a3d62;color:#fff;text-decoration:none;border-radius:6px;}
+</style>
+</head>
+<body>
+<h1>✅ Thank You! Your form was submitted.</h1>
+<p>We will contact you within 24–48 hours.</p>
+<a href="index.html">Back to Home</a>
+</body>
+</html>
